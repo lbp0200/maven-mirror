@@ -51,6 +51,7 @@ Router::scope('/', function (RouteBuilder $routes) {
      */
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
     $routes->connect('/maven2/**', ['controller' => 'Maven2', 'action' => 'index']);
+    $routes->connect('/repo/**', ['controller' => 'Maven2', 'action' => 'repo']);
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */
