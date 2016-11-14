@@ -50,7 +50,7 @@ Router::scope('/', function (RouteBuilder $routes) {
      * to use (in this case, src/Template/Pages/home.ctp)...
      */
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
-
+    $routes->connect('/maven2/**', ['controller' => 'Maven2', 'action' => 'index']);
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */
