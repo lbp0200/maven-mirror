@@ -14,7 +14,7 @@ class Maven2Controller extends AppController
      *
      * @return \Cake\Network\Response|null
      */
-    public function index()
+    public function index($url)
     {
 $this->autoRender=false;
         echo $this->request->url;
