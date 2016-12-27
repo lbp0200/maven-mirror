@@ -19,7 +19,7 @@ C盘下你的用户目录\.m2\settings.xml
     <mirror>
       <id>maven-lbp</id>
       <name>maven-lbp</name>
-      <url>http://floating-island-72850.herokuapp.com/maven2</url>
+      <url>http://maven-mirror-mvn.44fs.preview.openshiftapps.com//maven2</url>
       <mirrorOf>central</mirrorOf>
     </mirror>
   </mirrors>
@@ -33,8 +33,8 @@ Clojure/Lein 配置
 {:user
 	{:mirrors
 		{
-			"central" {:name "maven-lbp"	:url "http://floating-island-72850.herokuapp.com/maven2"}
-        	"clojars" {:name "clojars-lbp"	:url "http://floating-island-72850.herokuapp.com/repo"	:repo-manager true}
+			"central" {:name "maven-lbp"	:url "http://maven-mirror-mvn.44fs.preview.openshiftapps.com//maven2"}
+        	"clojars" {:name "clojars-lbp"	:url "http://maven-mirror-mvn.44fs.preview.openshiftapps.com//repo"	:repo-manager true}
         }
 	}
 }
