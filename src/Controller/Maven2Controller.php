@@ -18,14 +18,14 @@ class Maven2Controller extends AppController
     {
         $this->autoRender = false;
 //        echo $this->request->url;
-        return $this->redirect("http://120.52.73.22/repo.maven.apache.org/" . $this->request->url);
+        return $this->redirect("http://120.52.73.69/repo.maven.apache.org/" . $this->request->url);
     }
 
     public function repo()
     {
         $this->autoRender = false;
 //        echo $this->request->url;
-        return $this->redirect("http://120.52.73.22/clojars.org/" . $this->request->url);
+        return $this->redirect("http://120.52.73.69/clojars.org/" . $this->request->url);
     }
 
     /**
